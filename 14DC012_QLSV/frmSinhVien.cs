@@ -98,6 +98,7 @@ namespace _14DC012_QLSV
             rad_Nam.Checked = true;
             rad_Nu.Checked = false;
             date_NgaySinh.ResetText();
+
             cbox_Khoa.DataSource = DSKhoa();
             cbox_Khoa.DisplayMember = "TenKhoa";
             cbox_Khoa.ValueMember = "MaKhoa";
